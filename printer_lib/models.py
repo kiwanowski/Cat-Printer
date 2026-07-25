@@ -45,7 +45,7 @@ class ModelRegistry(dict):
 
 Models = ModelRegistry()
 # all known supported models
-for name in '_ZZ00 GB01 GB02 GB03 GT01 MX05 MX06 MX08 MX09 MX10 YT01 MX11 SC03h MXTP'.split(' '):
+for name in '_ZZ00 GB01 GB02 GB03 GT01 MX05 MX06 MX08 MX09 MX10 MX11 PD01 YT01 SC03h MXTP'.split(' '):
     Models[name] = Model()
 
 # that can receive compressed data
